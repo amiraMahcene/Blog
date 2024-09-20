@@ -1,0 +1,110 @@
+/*default rules of my design*/
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* my container css rules*/
+.conatiner
+{
+    width: 100%;
+    background-color: rgba(255,255,255,0.15);
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.container .heading
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner .heading span
+{
+   color: #f33c3c;
+}
+.conatiner .heading h1{
+    color :#2b2b2b;
+    font-size: 2.5rem;
+    font-weight: 9oo;
+}
+.conatiner .content
+{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.conatiner .content .box-content
+{
+    width :350px;
+    border : 2px solid #ececec;
+    background-color: #fff;
+    margin: 20px 20px;
+    
+}
+.conatiner .content .box-img
+{
+}
+.conatiner .content .box-img img
+{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+.conatiner .content .box-text
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.conatiner .content .box-text span
+{
+    color: #f33c3c;
+    font-size:0.9rem ;
+}
+.conatiner .content .box-text a
+{
+    text-decoration: none;
+    color: #272727;
+    font-weight: 500;
+}
+.conatiner .content .box-text p
+{
+    color:#2b2b2b;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    display:-webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.conatiner .content .box-text .readme
+{
+    text-decoration: none;
+    font-weight: 900;
+    color:#0f0f0f;
+}
+.conatiner .content .box-text .readme:hover{
+    color:#f33c3c;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+  }
